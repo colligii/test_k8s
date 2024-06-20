@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: test_k8s_web
-        imagePullPolicy: Never
+        image: ghcr.io/colligii/test_k8s:latest
         ports: 
         - containerPort: 3000
 ---
